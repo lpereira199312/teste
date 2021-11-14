@@ -1,0 +1,41 @@
+[Unit] 
+Description= rtn Service 
+After=network.target 
+
+[Service] 
+Type=simple
+ExecStart=/bin/bash /root/etc/rtn.sh
+timeoutStartSec=0 
+[Install]
+WantedBy=defaut.target
+[Unit]
+Description= rtn Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/etc/rtn.sh
+timeoutStartSec=0
+[Install]
+WantedBy=defaut.target
+[Unit]
+Description= rtn Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/etc/rtn.sh
+timeoutStartSec=0
+[Install]
+WantedBy=defaut.target
+[Unit]
+Description= rtn Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/etc/rtn.sh
+timeoutStartSec=0
+[Install]
+WantedBy=defaut.target
+
